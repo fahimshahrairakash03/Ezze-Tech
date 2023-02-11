@@ -7,7 +7,27 @@ const Header = () => {
     <>
       <Link>
         <li>
-          <a>Submenu 1</a>
+          <a className="font-semibold">PORTFOLIO</a>
+        </li>
+      </Link>
+      <Link>
+        <li>
+          <a className="font-semibold">ABOUT US</a>
+        </li>
+      </Link>
+      <Link>
+        <li>
+          <a className="font-semibold">PRESS</a>
+        </li>
+      </Link>
+      <Link>
+        <li>
+          <a className="font-semibold">CAREER</a>
+        </li>
+      </Link>
+      <Link>
+        <li>
+          <a className="font-semibold">CONTACT</a>
         </li>
       </Link>
     </>
