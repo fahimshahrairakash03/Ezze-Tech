@@ -76,7 +76,7 @@ const Clients = () => {
 
       <Swiper
         autoplay={{
-          delay: 2500,
+          delay: 500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}

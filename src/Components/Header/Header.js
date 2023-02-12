@@ -5,6 +5,11 @@ import logo from "../../assets/logo.png";
 const Header = () => {
   const menuItem = (
     <>
+      <Link to="/">
+        <li>
+          <a className="font-semibold">HOME</a>
+        </li>
+      </Link>
       <Link>
         <li>
           <a className="font-semibold">PORTFOLIO</a>
@@ -61,9 +66,11 @@ const Header = () => {
               {menuItem}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">
-            <img className="h-14 lg:h-16   " src={logo} alt="" />
-          </a>
+          <Link to="/">
+            <a className="btn btn-ghost normal-case text-xl">
+              <img className="h-14 lg:h-16   " src={logo} alt="" />
+            </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex ml-auto ">
           <ul className="menu menu-horizontal px-1 ">{menuItem}</ul>
