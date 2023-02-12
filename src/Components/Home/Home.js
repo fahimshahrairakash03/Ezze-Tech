@@ -5,12 +5,14 @@ import Partners from "../../pages/Partners";
 import Projects from "../../pages/Projects";
 import Photos from "../../pages/Photos.js";
 import Banner from "../../pages/Banner";
+import Services from "../../pages/Services";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
       <Projects></Projects>
+      <Services></Services>
       <Clients></Clients>
       <Partners></Partners>
       <Photos></Photos>

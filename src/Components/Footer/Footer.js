@@ -10,11 +10,6 @@ const Footer = () => {
       >
         <div>
           <img className="h-20" src={logo} alt="" />
-          <p>
-            ACME Industries Ltd.
-            <br />
-            Providing reliable tech since 1992
-          </p>
         </div>
         <div>
           <span className="footer-title">Services</span>

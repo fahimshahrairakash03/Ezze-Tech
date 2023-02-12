@@ -3,11 +3,11 @@ import "@lottiefiles/lottie-player";
 
 const Banner = () => {
   return (
-    <div style={{ backgroundColor: "#F5F5F5" }}>
+    <div>
       <div className="grid lg:grid-cols-2 sm:grid-cols-1">
         <div>
           <h1 className=" text-5xl  font-bolder text-center lg:mt-52 ">
-            WELCOME TO INNOCATION!
+            WELCOME TO INNOVATION!
           </h1>
         </div>
         <div>

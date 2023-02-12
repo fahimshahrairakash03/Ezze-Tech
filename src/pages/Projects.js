@@ -1,4 +1,5 @@
 import React from "react";
+import "@lottiefiles/lottie-player";
 
 const Projects = () => {
   const projects = [
@@ -30,7 +31,9 @@ const Projects = () => {
 
   return (
     <div className="m-10">
-      <h1 className="font-semibold my-10 text-4xl ">Recent Works</h1>
+      <h1 className="font-semibold my-10 text-4xl text-center ">
+        Recent Works
+      </h1>
       <div className="grid gap-6 lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2">
         {projects.map((project) => (
           <div className="card  bg-base-100 shadow-xl">
