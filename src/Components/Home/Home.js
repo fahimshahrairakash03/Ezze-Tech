@@ -6,6 +6,7 @@ import Projects from "../../pages/Projects";
 import Photos from "../../pages/Photos.js";
 import Banner from "../../pages/Banner";
 import Services from "../../pages/Services";
+import Achievements from "../../pages/Achievements";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner></Banner>
       <Projects></Projects>
       <Services></Services>
+      <Achievements></Achievements>
       <Clients></Clients>
       <Partners></Partners>
       <Photos></Photos>

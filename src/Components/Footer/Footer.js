@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer
-        style={{ backgroundColor: "black", height: "300px" }}
+        style={{ backgroundColor: "black" }}
         className="footer px-10 py-20 bg-neutral text-neutral-content"
       >
         <div>
