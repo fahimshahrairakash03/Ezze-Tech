@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Navigation, Pagination } from "swiper";
+import "@lottiefiles/lottie-player";
 
 const Clients = () => {
   const clients = [
@@ -71,7 +72,8 @@ const Clients = () => {
   ];
   return (
     <div className="my-28 lg:px-20 sm:px-5">
-      <h1 className="font-semibold my-8 text-3xl ">OUR CLIENTS</h1>
+      <h1 className="font-semibold my-8 text-3xl text-center ">OUR CLIENTS</h1>
+
       <Swiper
         autoplay={{
           delay: 2500,

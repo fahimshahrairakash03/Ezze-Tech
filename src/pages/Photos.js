@@ -38,7 +38,7 @@ const Photos = () => {
   ];
   return (
     <div className="my-28 ">
-      <h1 className="font-semibold my-8 text-3xl ">PHOTO STREAM</h1>
+      <h1 className="font-semibold my-8 text-3xl text-center ">PHOTO STREAM</h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
         {photos.map((photo) => (
           <div key={photo.id}>

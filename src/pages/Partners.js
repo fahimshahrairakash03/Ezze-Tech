@@ -72,7 +72,9 @@ const Partners = () => {
   return (
     <div>
       <div className="my-28 lg:px-20 sm:px-5">
-        <h1 className="font-semibold my-8 text-3xl ">OUR PARTNERS</h1>
+        <h1 className="font-semibold my-8 text-3xl text-center ">
+          OUR PARTNERS
+        </h1>
         <Swiper
           autoplay={{
             delay: 2500,

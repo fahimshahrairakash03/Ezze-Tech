@@ -4,10 +4,12 @@ import Cobrands from "../../pages/Cobrands";
 import Partners from "../../pages/Partners";
 import Projects from "../../pages/Projects";
 import Photos from "../../pages/Photos.js";
+import Banner from "../../pages/Banner";
 
 const Home = () => {
   return (
     <div>
+      <Banner></Banner>
       <Projects></Projects>
       <Clients></Clients>
       <Partners></Partners>
