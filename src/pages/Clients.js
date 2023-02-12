@@ -70,8 +70,8 @@ const Clients = () => {
     },
   ];
   return (
-    <div className="my-20 lg:px-20 sm:px-5">
-      <h1 className="font-semibold my-10 text-4xl ">OUR CLIENTS</h1>
+    <div className="my-28 lg:px-20 sm:px-5">
+      <h1 className="font-semibold my-8 text-3xl ">OUR CLIENTS</h1>
       <Swiper
         autoplay={{
           delay: 2500,

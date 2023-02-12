@@ -20,8 +20,8 @@ const Cobrands = () => {
     },
   ];
   return (
-    <div className="my-10 px-10">
-      <h1 className="font-semibold my-10 text-4xl ">CO - BRANDS</h1>
+    <div className="my-20 px-10">
+      <h1 className="font-semibold my-8 text-3xl ">CO - BRANDS</h1>
 
       <div className="grid gap-10 lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2">
         {brands.map((brand) => (

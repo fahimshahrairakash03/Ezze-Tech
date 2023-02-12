@@ -1,0 +1,4 @@
+.team_img:hover {
+  scale: 1.06;
+  transition: 0.3s;
+}
