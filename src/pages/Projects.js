@@ -28,7 +28,24 @@ const Projects = () => {
     },
   ];
 
-  return <div></div>;
+  return (
+    <div className="m-10">
+      <h1 className="font-semibold my-10 text-4xl ">Recent Works</h1>
+      <div className="grid gap-6 lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2">
+        {projects.map((project) => (
+          <div className="card  bg-base-100 shadow-xl">
+            <figure>
+              <img src={project.img} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <p className="text-xl font-semibold">{project.title}</p>
+              <p className="">{project.type}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Projects;

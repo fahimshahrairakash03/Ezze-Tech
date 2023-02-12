@@ -1,9 +1,12 @@
 import React from "react";
+import Cobrands from "../../pages/Cobrands";
+import Projects from "../../pages/Projects";
 
 const Home = () => {
   return (
     <div>
-      <h1 className="my-20">This is Home</h1>
+      <Projects></Projects>
+      <Cobrands></Cobrands>
     </div>
   );
 };
